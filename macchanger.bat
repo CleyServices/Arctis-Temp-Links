@@ -1,6 +1,6 @@
 @shift /0
 @ECHO OFF
-title Cley Service | Mac Changer
+title Mac
  SETLOCAL ENABLEDELAYEDEXPANSION
  SETLOCAL ENABLEEXTENSIONS
 
@@ -42,3 +42,4 @@ title Cley Service | Mac Changer
  SET RNDGEN2=!GEN2:~%RND2%,1!
  IF "!COUNT!"  EQU "2" (SET MAC=!MAC!!RNDGEN2!) ELSE (SET MAC=!MAC!!RNDGEN!)
  IF !COUNT!  LEQ 11 GOTO MACLOOP 
+ PAUSE
