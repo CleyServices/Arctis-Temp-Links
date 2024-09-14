@@ -1,6 +1,6 @@
 @echo off
-title 								 - Privat Deep Cleaner
-color A
+title  - Privat Deep Cleaner
+color 09
 echo off
 taskkill /f /im epicgameslauncher.exe
 taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe
