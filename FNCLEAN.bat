@@ -9,7 +9,7 @@ IF "%PROCESSOR_ARCHITECTURE%" EQU "amd64" (
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 )
 
-title SubZero Deep Cleaner - Made By Payson - discord.gg/subz
+title Deep Clean Updated
 REM --> If error flag set, we do not have admin.
 if '%errorlevel%' NEQ '0' (
 echo Requesting Admin...
