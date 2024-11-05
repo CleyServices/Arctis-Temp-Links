@@ -1,7 +1,7 @@
 @echo off
 mode con: cols=90 lines=48
 :diocane
-title Cley Serials
+title Arctis
 color 0c
 cls
 echo Bios
